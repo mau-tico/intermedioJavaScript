@@ -1,0 +1,24 @@
+{
+  "name": "asyncjs",
+  "version": "1.0.0",
+  "description": "Asincronismo en JS",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:reto": "node src/callback/reto.js",
+    "promise": "node src/promesa/index.js",
+    "promise:challenge": "node src/promesa/challenge.js",
+    "async": "node src/async/index.js",
+    "async:challenge": "node src/async/challenge.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
